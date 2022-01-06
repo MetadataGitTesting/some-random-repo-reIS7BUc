@@ -2,6 +2,21 @@ name: wendi.hintz
 description: User fork
 version: 1
 author: walker.rosenbaum@hotmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: walker.rosenbaum@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-06 00:53:30'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Beckie_Streich:
+    name: Beckie_Streich
+    description: Really solid info
+    createdAt: '2022-01-06 00:53:30'
+    author: walker.rosenbaum@hotmail.com
